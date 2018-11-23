@@ -109,10 +109,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f36dc1a1b1fc8224ab69b8ffc329bd3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forwardTouch: {fileID: 0}
-  backwardTouch: {fileID: 0}
-  leftTouch: {fileID: 0}
-  rightTouch: {fileID: 0}
+  speed: 1
 --- !u!114 &114441162661526400
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -144,4 +141,4 @@ MonoBehaviour:
     i14: 236
     i15: 223
   m_ServerOnly: 0
-  m_LocalPlayerAuthority: 0
+  m_LocalPlayerAuthority: 1
