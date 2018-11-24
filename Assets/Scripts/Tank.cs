@@ -4,24 +4,39 @@ using UnityEngine;
 using UnityEngine.Networking;
 
 public class Tank : NetworkBehaviour {
-    static public Dictionary<string, int> input = new Dictionary<string, int>();
+    static public Dictionary<string, float> input = new Dictionary<string, float>();
+    public Color[] colors = { Color.blue, Color.red, Color.green, Color.yellow };
     public float speed;
+    public int ID;
 
-    
+    private void Start()
+    {
+        
+        ID = (int)netId.Value;
+        GetComponent<MeshRenderer>().material.color = colors[ID% colors.Length];
+        transform.parent = GameObject.Find("ImageTarget").transform;
+    }
+
     private void Update()
     {
-        /*  if (forwardTouch.activate) forward();
-          if (backwardTouch.activate) backward();
-          if (leftTouch.activate) left();
-          if (rightTouch.activate) right();*/
-        if (!Tank.input.ContainsKey("AxisVertical"))
+        if (transform.position.y < 0)
         {
-            Tank.input.Add("AxisVertical", 0);
-            Tank.input.Add("AxisHorizontal", 0);
+            transform.position = new Vector3(0, 10, 0);
+            transform.rotation = Quaternion.identity;
         }
         if (isLocalPlayer)
         {
-            transform.position += (Vector3.forward * input["AxisVertical"] + Vector3.right * input["AxisHorizontal"]).normalized * Time.deltaTime * speed;
+            Vector3 vect = new Vector3(-Joystick.direction.z,0, Joystick.direction.x).normalized ;
+
+            Vector3 forward = Camera.main.transform.forward;
+            Vector3 right = Camera.main.transform.right;
+
+            forward = (new Vector3(-forward.x, 0, -forward.z)).normalized;
+            right = (new Vector3(right.x, 0, right.z)).normalized;
+
+
+            transform.position += (forward * vect.x + right * vect.z).normalized * Time.deltaTime * speed;
+            transform.LookAt(transform.position + (forward * vect.x + right * vect.z));
         }
 
     }

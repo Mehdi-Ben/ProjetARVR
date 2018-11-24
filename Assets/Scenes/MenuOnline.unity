@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.4465782, g: 0.49641252, b: 0.5748167, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657868, g: 0.49641263, b: 0.57481706, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -165,14 +165,15 @@ MonoBehaviour:
   m_ScriptCRCCheck: 1
   m_MaxDelay: 0.01
   m_LogLevel: 2
-  m_PlayerPrefab: {fileID: 1223644902841620, guid: 4b543d16c51d98144bf017c6754eecdf,
+  m_PlayerPrefab: {fileID: 1120046214828814, guid: ed1b6afb45ea85447aa30662805f94d6,
     type: 2}
   m_AutoCreatePlayer: 1
-  m_PlayerSpawnMethod: 0
-  m_OfflineScene: 
+  m_PlayerSpawnMethod: 1
+  m_OfflineScene: MenuOnline
   m_OnlineScene: SceneDeJeu
-  m_SpawnPrefabs: []
-  m_CustomConfig: 1
+  m_SpawnPrefabs:
+  - {fileID: 1717183624387032, guid: c5ae3cdd7700111459dade6f58d0c50b, type: 2}
+  m_CustomConfig: 0
   m_MaxConnections: 4
   m_ConnectionConfig:
     m_PacketSize: 1440
