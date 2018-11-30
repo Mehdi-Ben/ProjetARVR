@@ -17,7 +17,7 @@ public class Tank : NetworkBehaviour
     public float jumpSpeed = 8.0f;
     public float gravity = 20.0f;
 
-    [SyncVar]
+    [SyncVar()]
     public float PV = 100;
     public TextMesh text;
 
@@ -25,7 +25,7 @@ public class Tank : NetworkBehaviour
 
     public GameObject trackerPrefab;
     public float distanceTracker;
-    public Transform targetTracker;
+    [SyncVar] public Vector3 targetTracker;
     public GameObject tracker;
 
     private Vector3 moveDirection = Vector3.zero;
@@ -58,6 +58,7 @@ public class Tank : NetworkBehaviour
             transform.rotation = Quaternion.identity;
             m_Rigidbody.velocity = Vector3.zero;
         }
+        tracker.transform.position = (new Vector3(targetTracker.x, 0, targetTracker.z)).normalized * distanceTracker;
         if (isLocalPlayer || debug)
         {
             if (buttonFire)
@@ -72,8 +73,8 @@ public class Tank : NetworkBehaviour
                 moveDirection = new Vector3(Joystick.direction.x, 0.0f, Joystick.direction.z);
             //moveDirection = transform.TransformDirection(moveDirection);
 
-            targetTracker = Camera.main.transform;
-            tracker.transform.position = (new Vector3(targetTracker.position.x, 0, targetTracker.position.z)).normalized * distanceTracker;
+            targetTracker = Camera.main.transform.position;
+            
             tracker.transform.LookAt(Vector3.zero);
             if (moveDirection.magnitude < 0.02f) return;
                 moveDirection = moveDirection * speed;
@@ -111,7 +112,7 @@ public class Tank : NetworkBehaviour
             
 
         }
-
+        
     }
     
     public void dealDamage(float damage)
@@ -119,7 +120,9 @@ public class Tank : NetworkBehaviour
         PV -= damage;
         if (PV <= 0)
         {
-            Destroy(gameObject);
+            //Destroy(gameObject);
+            PV = 100;
+            transform.position -= new Vector3(0, -20, 0);
         }
     }
 
@@ -129,8 +132,8 @@ public class Tank : NetworkBehaviour
         
         GameObject bullet = Instantiate(bulletPrefab);
         bullet.transform.position = spawnBullet.position;
-        bullet.GetComponent<Bullet>().vect = transform.forward;
-        bullet.GetComponent<Bullet>().handler = gameObject;
+        bullet.GetComponent<Rigidbody>().velocity = transform.forward * 20;
+        bullet.GetComponent<Bullet>().handler = ID;
         NetworkServer.Spawn(bullet);
     }
 
