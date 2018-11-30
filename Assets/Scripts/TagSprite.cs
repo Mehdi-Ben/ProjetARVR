@@ -5,19 +5,21 @@ using UnityEngine;
 public class TagSprite : MonoBehaviour {
 
     // Use this for initialization
+    public TextMesh text;
+    public int playerId;
+    public Color playerColor;
     
-    public float distance;
-    public Transform target;
+    
 
-	void Start () {
-		
+	void Start ()
+    {
+        text.text = "P" + playerId;
+        text.color = playerColor;
 	}
 	
 	// Update is called once per frame
 	void Update ()
     {
-        //Vector3 v = target.position.normalized * distance;
-        transform.position = (new Vector3(target.position.x, 0, target.position.z)).normalized * distance;
-        transform.LookAt(Vector3.zero);
+       
 	}
 }

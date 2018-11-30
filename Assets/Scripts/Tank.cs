@@ -30,7 +30,9 @@ public class Tank : NetworkBehaviour
         m_Rigidbody = GetComponent<Rigidbody>();
         ID = (int)netId.Value;
         tracker = Instantiate(trackerPrefab);
-        targetTracker = transform;
+        tracker.GetComponent<TagSprite>().playerColor = colors[ID % colors.Length];
+        tracker.GetComponent<TagSprite>().playerId = ID;
+
         foreach (MeshRenderer m in meshes)
         {
             m.material.color = colors[ID % colors.Length];
@@ -55,6 +57,10 @@ public class Tank : NetworkBehaviour
 
                 moveDirection = new Vector3(Joystick.direction.x, 0.0f, Joystick.direction.z);
             //moveDirection = transform.TransformDirection(moveDirection);
+
+            targetTracker = Camera.main.transform;
+            tracker.transform.position = (new Vector3(targetTracker.position.x, 0, targetTracker.position.z)).normalized * distanceTracker;
+            tracker.transform.LookAt(Vector3.zero);
             if (moveDirection.magnitude < 0.02f) return;
                 moveDirection = moveDirection * speed;
 
@@ -91,8 +97,7 @@ public class Tank : NetworkBehaviour
             Debug.DrawRay(transform.position, transform.forward * 5, Color.red);
             Debug.DrawRay(transform.position, (transform.forward * moveDirection.z + transform.right * moveDirection.x).normalized * 5, Color.green);
 
-            tracker.transform.position = (new Vector3(targetTracker.position.x, 0, targetTracker.position.z)).normalized * distanceTracker;
-            tracker.transform.LookAt(Vector3.zero);
+            
 
         }
 
