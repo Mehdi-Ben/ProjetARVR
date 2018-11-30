@@ -165,7 +165,7 @@ Transform:
   m_GameObject: {fileID: 1841209505241242}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -1.766374, y: 6.87, z: 1.6147765}
-  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
+  m_LocalScale: {x: 1.5, y: 2, z: 2}
   m_Children:
   - {fileID: 4060801894805018}
   m_Father: {fileID: 0}
@@ -419,6 +419,11 @@ MonoBehaviour:
   turnspeed: 9
   jumpSpeed: 0
   gravity: 0
+  trackerPrefab: {fileID: 1573345520936920, guid: c42bb587b84ea7e43bbee15aead09738,
+    type: 2}
+  distanceTracker: 20
+  targetTracker: {fileID: 0}
+  tracker: {fileID: 0}
   debug: 0
 --- !u!114 &114379290854110862
 MonoBehaviour:

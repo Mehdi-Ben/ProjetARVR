@@ -6,7 +6,7 @@ using UnityEngine.Networking;
 public class Tank : NetworkBehaviour
 {
 
-    public Color[] colors = { Color.blue, Color.red, Color.green, Color.yellow };
+    public Color[] colors = { Color.blue, Color.red, Color.green, Color.yellow, Color.cyan, Color.black, Color.magenta, Color.grey};
     public int ID;
     public GameObject bullet;
     private Rigidbody m_Rigidbody;
@@ -14,6 +14,11 @@ public class Tank : NetworkBehaviour
     public float turnspeed = 6.0f;
     public float jumpSpeed = 8.0f;
     public float gravity = 20.0f;
+
+    public GameObject trackerPrefab;
+    public float distanceTracker;
+    public Transform targetTracker;
+    public GameObject tracker;
 
     private Vector3 moveDirection = Vector3.zero;
     public bool debug;
@@ -23,6 +28,8 @@ public class Tank : NetworkBehaviour
         m_Rigidbody = GetComponent<Rigidbody>();
         ID = (int)netId.Value;
         GetComponent<MeshRenderer>().material.color = colors[ID% colors.Length];
+        tracker = Instantiate(trackerPrefab);
+        targetTracker = transform;
         //transform.parent = GameObject.Find("ImageTarget").transform;
     }
 
@@ -70,7 +77,6 @@ public class Tank : NetworkBehaviour
                 d += Mathf.Sign(d) * 1;
             }
             
-            
 
             print(d);
             transform.Rotate(transform.up, turnspeed * d);
@@ -80,6 +86,8 @@ public class Tank : NetworkBehaviour
             Debug.DrawRay(transform.position, transform.forward * 5, Color.red);
             Debug.DrawRay(transform.position, (transform.forward * moveDirection.z + transform.right * moveDirection.x).normalized * 5, Color.green);
 
+            tracker.transform.position = (new Vector3(targetTracker.position.x, 0, targetTracker.position.z)).normalized * distanceTracker;
+            tracker.transform.LookAt(Vector3.zero);
 
         }
 
