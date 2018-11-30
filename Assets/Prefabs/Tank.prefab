@@ -164,8 +164,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1841209505241242}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.766374, y: 6.87, z: 1.6147765}
-  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
+  m_LocalPosition: {x: -12.36, y: 6.87, z: 1.6147765}
+  m_LocalScale: {x: 1.5, y: 2, z: 2}
   m_Children:
   - {fileID: 4060801894805018}
   m_Father: {fileID: 0}
@@ -383,7 +383,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 80
   m_CollisionDetection: 0
 --- !u!65 &65438697708941192
 BoxCollider:
@@ -413,9 +413,14 @@ MonoBehaviour:
   - {r: 1, g: 0, b: 0, a: 1}
   - {r: 0, g: 1, b: 0, a: 1}
   - {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  meshes:
+  - {fileID: 23568748043328576}
+  - {fileID: 23733609126029708}
+  - {fileID: 23504108620336368}
+  - {fileID: 23108587190629590}
   ID: 0
   bullet: {fileID: 1098364679319170, guid: 023e3ce2e195e554c946ba1f2ad1218a, type: 2}
-  speed: 0.3
+  speed: 10
   turnspeed: 9
   jumpSpeed: 0
   gravity: 0
@@ -440,7 +445,7 @@ MonoBehaviour:
   m_VelocityThreshold: 0.0001
   m_SnapThreshold: 5
   m_InterpolateRotation: 1
-  m_InterpolateMovement: 1
+  m_InterpolateMovement: 5
 --- !u!114 &114832648472139166
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -472,4 +477,4 @@ MonoBehaviour:
     i14: 236
     i15: 223
   m_ServerOnly: 0
-  m_LocalPlayerAuthority: 0
+  m_LocalPlayerAuthority: 1

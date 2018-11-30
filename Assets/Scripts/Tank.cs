@@ -7,6 +7,7 @@ public class Tank : NetworkBehaviour
 {
 
     public Color[] colors = { Color.blue, Color.red, Color.green, Color.yellow };
+    public MeshRenderer[] meshes;
     public int ID;
     public GameObject bullet;
     private Rigidbody m_Rigidbody;
@@ -22,7 +23,10 @@ public class Tank : NetworkBehaviour
     {
         m_Rigidbody = GetComponent<Rigidbody>();
         ID = (int)netId.Value;
-        GetComponent<MeshRenderer>().material.color = colors[ID% colors.Length];
+        foreach (MeshRenderer m in meshes)
+        {
+            m.material.color = colors[ID % colors.Length];
+        }
         //transform.parent = GameObject.Find("ImageTarget").transform;
     }
 
@@ -58,8 +62,8 @@ public class Tank : NetworkBehaviour
 
             //transform.LookAt(transform.position + moveDirection);
             moveDirection = (Camera.main.transform.forward * moveDirection.z + Camera.main.transform.right * moveDirection.x);
-
-            Vector3 vect = m_Rigidbody.position + moveDirection;
+            moveDirection = (new Vector3(moveDirection.x, 0, moveDirection.z)).normalized;
+            Vector3 vect = m_Rigidbody.position + moveDirection*Time.deltaTime*speed;
             
             m_Rigidbody.MovePosition(vect);
 
