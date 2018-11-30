@@ -4,8 +4,10 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour {
 
+    public GameObject handler;
     public Vector3 vect;
     public float speed;
+    public float damage;
 
     private void Start()
     {
@@ -19,9 +21,14 @@ public class Bullet : MonoBehaviour {
 
     private void OnCollisionEnter(Collision collision)
     {
+        if (collision.gameObject.Equals(handler)) return;
         if (collision.gameObject.GetComponent<Tank>())
         {
-            Destroy(collision.gameObject);
+            Tank tank = collision.gameObject.GetComponent<Tank>();
+            if(tank != null)
+            {
+                tank.dealDamage(damage);
+            }
         }
         Destroy(gameObject);
     }

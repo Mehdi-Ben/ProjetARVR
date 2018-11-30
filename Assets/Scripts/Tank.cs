@@ -6,16 +6,22 @@ using UnityEngine.Networking;
 public class Tank : NetworkBehaviour
 {
 
-
+    
     public Color[] colors = { Color.blue, Color.red, Color.green, Color.yellow, Color.cyan, Color.black, Color.magenta, Color.grey};
     public MeshRenderer[] meshes;
     public int ID;
-    public GameObject bullet;
+    public GameObject bulletPrefab;
     private Rigidbody m_Rigidbody;
     public float speed = 6.0f;
     public float turnspeed = 6.0f;
     public float jumpSpeed = 8.0f;
     public float gravity = 20.0f;
+
+    [SyncVar]
+    public float PV = 100;
+    public TextMesh text;
+
+    public Transform spawnBullet;
 
     public GameObject trackerPrefab;
     public float distanceTracker;
@@ -24,6 +30,8 @@ public class Tank : NetworkBehaviour
 
     private Vector3 moveDirection = Vector3.zero;
     public bool debug;
+
+    public static bool buttonFire;
 
     private void Start()
     {
@@ -40,6 +48,7 @@ public class Tank : NetworkBehaviour
 
     private void Update()
     {
+        text.text = "PV : " + PV;
         if (transform.position.y < -2f)
         {
             NetworkStartPosition[] spawnPoints = FindObjectsOfType<NetworkStartPosition>();
@@ -49,7 +58,12 @@ public class Tank : NetworkBehaviour
         }
         if (isLocalPlayer || debug)
         {
-            
+            if (buttonFire)
+            {
+                print("A");
+                CmdFire();
+                buttonFire = false;
+            }
                 // We are grounded, so recalculate
                 // move direction directly from axes
 
@@ -58,10 +72,7 @@ public class Tank : NetworkBehaviour
             if (moveDirection.magnitude < 0.02f) return;
                 moveDirection = moveDirection * speed;
 
-                if (Input.GetButton("Jump"))
-                {
-                    moveDirection.y = jumpSpeed;
-                }
+                
 
             // Apply gravity
             //moveDirection.y = moveDirection.y - (gravity * Time.deltaTime);
@@ -98,5 +109,29 @@ public class Tank : NetworkBehaviour
 
     }
     
+    public void dealDamage(float damage)
+    {
+        PV -= damage;
+        if (PV <= 0)
+        {
+            Destroy(gameObject);
+        }
+    }
 
+    [Command]
+    public void CmdFire()
+    {
+        
+        GameObject bullet = Instantiate(bulletPrefab);
+        bullet.transform.position = spawnBullet.position;
+        bullet.GetComponent<Bullet>().vect = transform.forward;
+        bullet.GetComponent<Bullet>().handler = gameObject;
+        NetworkServer.Spawn(bullet);
+    }
+
+    public void FireButton()
+    {
+        print("Ok");
+        buttonFire = true;
+    }
 }
