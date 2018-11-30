@@ -546,7 +546,7 @@ MonoBehaviour:
   spawnBullet: {fileID: 4944703060704302}
   trackerPrefab: {fileID: 1573345520936920, guid: c42bb587b84ea7e43bbee15aead09738,
     type: 2}
-  distanceTracker: 20
+  distanceTracker: 30
   targetTracker: {fileID: 0}
   tracker: {fileID: 0}
   debug: 0
