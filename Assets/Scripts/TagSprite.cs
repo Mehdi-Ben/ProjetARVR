@@ -5,6 +5,7 @@ using UnityEngine;
 public class TagSprite : MonoBehaviour {
 
     // Use this for initialization
+    
     public float distance;
     public Transform target;
 
