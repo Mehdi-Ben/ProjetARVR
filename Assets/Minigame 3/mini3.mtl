@@ -1,0 +1,40 @@
+# Wavefront MTL
+# Created by fragMOTION
+# http://www.fragmosoft.com
+
+newmtl m0
+illum 2
+d 1
+ka 0.588235 0.588235 0.588235
+kd 0.588235 0.588235 0.588235
+ks 0.898039 0.898039 0.898039
+ke 0 0 0
+ns 12.8
+map_Kd miniSS04.png
+newmtl m1
+illum 2
+d 1
+ka 0.588235 0.588235 0.588235
+kd 0.588235 0.588235 0.588235
+ks 0.898039 0.898039 0.898039
+ke 0 0 0
+ns 12.8
+map_Kd miniSS03.png
+newmtl m2
+illum 2
+d 1
+ka 0.588235 0.588235 0.588235
+kd 0.588235 0.588235 0.588235
+ks 0.898039 0.898039 0.898039
+ke 0 0 0
+ns 12.8
+map_Kd miniSS02.png
+newmtl m3
+illum 2
+d 1
+ka 0.588235 0.588235 0.588235
+kd 0.588235 0.588235 0.588235
+ks 0.898039 0.898039 0.898039
+ke 0 0 0
+ns 12.8
+map_Kd miniSS00.png
