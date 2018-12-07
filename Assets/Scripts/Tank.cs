@@ -74,7 +74,6 @@ public class Tank : NetworkBehaviour
         {
             Destroy(arrowTracker);
         }
-        textMesh.text = "ID : " + ID;
     }
 
     private int IDPlayer()
