@@ -5,6 +5,7 @@ using UnityEngine;
 public class ArrowTracker : MonoBehaviour
 {
     public Vector3 delta;
+    public float speed;
 
 	// Use this for initialization
 	void Start () {
@@ -15,6 +16,6 @@ public class ArrowTracker : MonoBehaviour
 	void Update ()
     {
         transform.position = transform.parent.position + delta;
-        transform.Rotate(Vector3.up, 1);
+        transform.Rotate(Vector3.up, speed * Time.deltaTime);
 	}
 }

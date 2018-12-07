@@ -21,15 +21,13 @@ public class Bullet : NetworkBehaviour {
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.GetComponent<Tank>() && collision.gameObject.GetComponent<Tank>().ID == handler) return;
-        if (collision.gameObject.GetComponent<Tank>())
+        Tank tank = collision.gameObject.GetComponent<Tank>();
+        print(collision.collider);
+        if (tank)
         {
-            Tank tank = collision.gameObject.GetComponent<Tank>();
-            if(tank != null)
-            {
-                tank.dealDamage(damage, handler);
-            }
-        }
+            if (handler == tank.ID) return;
+            tank.dealDamage(damage, handler);
+        }     
         Destroy(gameObject);
     }
 }
