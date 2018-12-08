@@ -15,6 +15,7 @@ public class PlayerCount : MonoBehaviour
 
     public Image invisibility;
     public Image attackUp;
+    public Image homingMissile;
 
     public float pvCourant;
 
@@ -72,6 +73,16 @@ public class PlayerCount : MonoBehaviour
         else
         {
             attackUp.gameObject.SetActive(false);
+        }
+
+        if (player.homingMissile > 0)
+        {
+            homingMissile.gameObject.SetActive(true);
+            homingMissile.fillAmount = player.attackUp / 15.0f;
+        }
+        else
+        {
+            homingMissile.gameObject.SetActive(false);
         }
 
     }

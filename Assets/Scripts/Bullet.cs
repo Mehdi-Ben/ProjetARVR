@@ -16,15 +16,16 @@ public class Bullet : NetworkBehaviour {
     }
     private void Update()
     {
-        transform.position += direction * speed * Time.deltaTime;
+        transform.position += direction.normalized * speed * Time.deltaTime;
     }
 
     private void OnCollisionEnter(Collision collision)
     {
         Tank tank = collision.gameObject.GetComponent<Tank>();
-        print(collision.collider);
+        print("["+gameObject.GetInstanceID()+"] "+ collision.gameObject.name + " - Tank : " +tank +" - ID : "+ ((tank)? tank.ID:-1) + " - Lanceur :" + handler );
         if (tank)
         {
+            if (handler == 0) return;
             if (handler == tank.ID) return;
             tank.dealDamage(damage, handler);
         }     

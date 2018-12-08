@@ -20,6 +20,7 @@ public class Tank : NetworkBehaviour
     [SyncVar] public int ID;
     public GameObject bulletPrefab;
     public GameObject bigBulletPrefab;
+    public GameObject hommingBulletPrefab;
     public GameObject currentBulletPrefab;
     private Rigidbody m_Rigidbody;
         
@@ -43,6 +44,7 @@ public class Tank : NetworkBehaviour
     public float reloadTime = 0.1f;
     [SyncVar] public float invisibility = 0f;
     [SyncVar] public float attackUp = 0f;
+    [SyncVar] public float homingMissile = 0f;
     public TextMesh textMesh;
 
 
@@ -108,8 +110,10 @@ public class Tank : NetworkBehaviour
 
         if (invisibility > 0) Invisibility();
         AttackUp();
+        HomingMissile();
 
-        
+
+
 
         if (transform.position.y < -2f)
         {
@@ -266,7 +270,20 @@ public class Tank : NetworkBehaviour
             currentBulletPrefab = bigBulletPrefab;
         }
     }
-    
+
+    public void HomingMissile()
+    {
+        homingMissile -= Time.deltaTime;
+        if (homingMissile <= 0f)
+        {
+            currentBulletPrefab = bulletPrefab;
+        }
+        else
+        {
+            currentBulletPrefab = hommingBulletPrefab;
+        }
+    }
+
 
     private void OnDrawGizmos()
     {
