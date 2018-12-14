@@ -1,0 +1,2956 @@
+newmtl material_0
+Ka 1 1 1
+Kd 1 1 1
+Ks 0 0 0
+illum 1
+newmtl material_137D28
+Ka 1 1 1
+Kd 0.552941203117371 0.309803932905197 0.14509804546833
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 63
+map_Ka mrb_256s_sitkaba.png
+map_Kd mrb_256s_sitkaba.png
+newmtl material_137D3C
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 63
+map_Ka mrb_256s_sitkaba.png
+map_Kd mrb_256s_sitkaba.png
+newmtl material_137D50
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 64
+map_Ka mrb_256s_sitkabb.png
+map_Kd mrb_256s_sitkabb.png
+newmtl material_137D64
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 65
+map_Ka mrb_256s_uekaba.png
+map_Kd mrb_256s_uekaba.png
+newmtl material_137D78
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 65
+map_Ka mrb_256s_uekaba.png
+map_Kd mrb_256s_uekaba.png
+newmtl material_139818
+Ka 1 1 1
+Kd 0.552941203117371 0.309803932905197 0.14509804546833
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 65
+map_Ka mrb_256s_uekaba.png
+map_Kd mrb_256s_uekaba.png
+newmtl material_13982C
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 63
+map_Ka mrb_256s_sitkaba.png
+map_Kd mrb_256s_sitkaba.png
+newmtl material_139840
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 64
+map_Ka mrb_256s_sitkabb.png
+map_Kd mrb_256s_sitkabb.png
+newmtl material_139854
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 64
+map_Ka mrb_256s_sitkabb.png
+map_Kd mrb_256s_sitkabb.png
+newmtl material_139868
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 65
+map_Ka mrb_256s_uekaba.png
+map_Kd mrb_256s_uekaba.png
+newmtl material_13A820
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 49
+map_Ka mrb_256s_eic.png
+map_Kd mrb_256s_eic.png
+newmtl material_13A834
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 43
+map_Ka mrb_128s_mori.png
+map_Kd mrb_128s_mori.png
+newmtl material_13A848
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 47
+map_Ka mrb_256s_eia.png
+map_Kd mrb_256s_eia.png
+newmtl material_13A85C
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 48
+map_Ka mrb_256s_eib.png
+map_Kd mrb_256s_eib.png
+newmtl material_13B2B8
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 55
+map_Ka mrb_256s_pekie2.png
+map_Kd mrb_256s_pekie2.png
+newmtl material_13B2CC
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 65
+map_Ka mrb_256s_uekaba.png
+map_Kd mrb_256s_uekaba.png
+newmtl material_13B2E0
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 57
+map_Ka mrb_256s_pekig.png
+map_Kd mrb_256s_pekig.png
+newmtl material_13B2F4
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 63
+map_Ka mrb_256s_sitkaba.png
+map_Kd mrb_256s_sitkaba.png
+newmtl material_13B308
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 70
+map_Ka mrb_512s_pekia.png
+map_Kd mrb_512s_pekia.png
+newmtl material_13B31C
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 55
+map_Ka mrb_256s_pekie2.png
+map_Kd mrb_256s_pekie2.png
+newmtl material_13C898
+Ka 1 1 1
+Kd 0.552941203117371 0.309803932905197 0.14509804546833
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 65
+map_Ka mrb_256s_uekaba.png
+map_Kd mrb_256s_uekaba.png
+newmtl material_13C8AC
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 64
+map_Ka mrb_256s_sitkabb.png
+map_Kd mrb_256s_sitkabb.png
+newmtl material_13C8C0
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 63
+map_Ka mrb_256s_sitkaba.png
+map_Kd mrb_256s_sitkaba.png
+newmtl material_13C8D4
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 64
+map_Ka mrb_256s_sitkabb.png
+map_Kd mrb_256s_sitkabb.png
+newmtl material_13C8E8
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 65
+map_Ka mrb_256s_uekaba.png
+map_Kd mrb_256s_uekaba.png
+newmtl material_13D450
+Ka 1 1 1
+Kd 0.341176480054855 0.403921574354172 0.454901963472366
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 66
+map_Ka mrb_256s_yamaf.png
+map_Kd mrb_256s_yamaf.png
+newmtl material_13F7E8
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 12
+map_Ka mr_128k_chpkusa.png
+map_Kd mr_128k_chpkusa.png
+newmtl material_13F7FC
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 12
+map_Ka mr_128k_chpkusa.png
+map_Kd mr_128k_chpkusa.png
+newmtl material_13F810
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 21
+map_Ka mr_128k_chptuti.png
+map_Kd mr_128k_chptuti.png
+newmtl material_13F824
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 13
+map_Ka mr_128k_chpkusajimen.png
+map_Kd mr_128k_chpkusajimen.png
+newmtl material_13F838
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 14
+map_Ka mr_128k_chpkusajimen2.png
+map_Kd mr_128k_chpkusajimen2.png
+newmtl material_143868
+Ka 1 1 1
+Kd 0.184313729405403 0.482352942228317 0.388235300779343
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 41
+map_Ka mrb_128s_kusa.png
+map_Kd mrb_128s_kusa.png
+newmtl material_14387C
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 42
+map_Ka mrb_128s_kusasige.png
+map_Kd mrb_128s_kusasige.png
+newmtl material_143890
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 42
+map_Ka mrb_128s_kusasige.png
+map_Kd mrb_128s_kusasige.png
+newmtl material_1438A4
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 31
+map_Ka mrb_064s_dukutunad.png
+map_Kd mrb_064s_dukutunad.png
+newmtl material_146130
+Ka 1 1 1
+Kd 0.592156887054443 0.462745100259781 0.301960796117783
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 46
+map_Ka mrb_256s_aonac.png
+map_Kd mrb_256s_aonac.png
+newmtl material_146144
+Ka 1 1 1
+Kd 0 0 0.0274509806185961
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 0
+map_Ka mr_008o_kuro.png
+map_Kd mr_008o_kuro.png
+newmtl material_146158
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 45
+map_Ka mrb_256s_aonab.png
+map_Kd mrb_256s_aonab.png
+newmtl material_14616C
+Ka 1 1 1
+Kd 0.0980392172932625 0.400000005960464 0.498039215803146
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 37
+map_Ka mrb_128s_aonad.png
+map_Kd mrb_128s_aonad.png
+newmtl material_146180
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 44
+map_Ka mrb_256s_aonaa.png
+map_Kd mrb_256s_aonaa.png
+newmtl material_146194
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 46
+map_Ka mrb_256s_aonac.png
+map_Kd mrb_256s_aonac.png
+newmtl material_1461A8
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 44
+map_Ka mrb_256s_aonaa.png
+map_Kd mrb_256s_aonaa.png
+newmtl material_1461BC
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 44
+map_Ka mrb_256s_aonaa.png
+map_Kd mrb_256s_aonaa.png
+newmtl material_1461D0
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 44
+map_Ka mrb_256s_aonaa.png
+map_Kd mrb_256s_aonaa.png
+newmtl material_1461E4
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 46
+map_Ka mrb_256s_aonac.png
+map_Kd mrb_256s_aonac.png
+newmtl material_1461F8
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 46
+map_Ka mrb_256s_aonac.png
+map_Kd mrb_256s_aonac.png
+newmtl material_148968
+Ka 1 1 1
+Kd 0.592156887054443 0.462745100259781 0.301960796117783
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 28
+map_Ka mrb_064s_dukutunaa.png
+map_Kd mrb_064s_dukutunaa.png
+newmtl material_14897C
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 37
+map_Ka mrb_128s_aonad.png
+map_Kd mrb_128s_aonad.png
+newmtl material_148990
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 44
+map_Ka mrb_256s_aonaa.png
+map_Kd mrb_256s_aonaa.png
+newmtl material_1489A4
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 45
+map_Ka mrb_256s_aonab.png
+map_Kd mrb_256s_aonab.png
+newmtl material_1489B8
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 45
+map_Ka mrb_256s_aonab.png
+map_Kd mrb_256s_aonab.png
+newmtl material_1489CC
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 44
+map_Ka mrb_256s_aonaa.png
+map_Kd mrb_256s_aonaa.png
+newmtl material_1489E0
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 46
+map_Ka mrb_256s_aonac.png
+map_Kd mrb_256s_aonac.png
+newmtl material_1489F4
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 28
+map_Ka mrb_064s_dukutunaa.png
+map_Kd mrb_064s_dukutunaa.png
+newmtl material_148A08
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 29
+map_Ka mrb_064s_dukutunab.png
+map_Kd mrb_064s_dukutunab.png
+newmtl material_148A1C
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 30
+map_Ka mrb_064s_dukutunac.png
+map_Kd mrb_064s_dukutunac.png
+newmtl material_148A30
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 37
+map_Ka mrb_128s_aonad.png
+map_Kd mrb_128s_aonad.png
+newmtl material_148A44
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 46
+map_Ka mrb_256s_aonac.png
+map_Kd mrb_256s_aonac.png
+newmtl material_14E8B8
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 38
+map_Ka mrb_128s_criwaa.png
+map_Kd mrb_128s_criwaa.png
+newmtl material_14E8CC
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 38
+map_Ka mrb_128s_criwaa.png
+map_Kd mrb_128s_criwaa.png
+newmtl material_14E8E0
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 39
+map_Ka mrb_128s_criwab.png
+map_Kd mrb_128s_criwab.png
+newmtl material_14E8F4
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 40
+map_Ka mrb_128s_criwac.png
+map_Kd mrb_128s_criwac.png
+newmtl material_14EF70
+Ka 1 1 1
+Kd 0.552941203117371 0.309803932905197 0.14509804546833
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 65
+map_Ka mrb_256s_uekaba.png
+map_Kd mrb_256s_uekaba.png
+newmtl material_14EF84
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 64
+map_Ka mrb_256s_sitkabb.png
+map_Kd mrb_256s_sitkabb.png
+newmtl material_14EF98
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 63
+map_Ka mrb_256s_sitkaba.png
+map_Kd mrb_256s_sitkaba.png
+newmtl material_14EFAC
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 64
+map_Ka mrb_256s_sitkabb.png
+map_Kd mrb_256s_sitkabb.png
+newmtl material_14EFC0
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 65
+map_Ka mrb_256s_uekaba.png
+map_Kd mrb_256s_uekaba.png
+newmtl material_14F980
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 36
+map_Ka mrb_064s_yamatunad.png
+map_Kd mrb_064s_yamatunad.png
+newmtl material_14F994
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 67
+map_Ka mrb_256s_yamkaba.png
+map_Kd mrb_256s_yamkaba.png
+newmtl material_14F9A8
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 68
+map_Ka mrb_256s_yamkabb.png
+map_Kd mrb_256s_yamkabb.png
+newmtl material_14F9BC
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 67
+map_Ka mrb_256s_yamkaba.png
+map_Kd mrb_256s_yamkaba.png
+newmtl material_14F9D0
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 53
+map_Ka mrb_256s_pekid.png
+map_Kd mrb_256s_pekid.png
+newmtl material_14F9E4
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 70
+map_Ka mrb_512s_pekia.png
+map_Kd mrb_512s_pekia.png
+newmtl material_14F9F8
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 54
+map_Ka mrb_256s_pekie.png
+map_Kd mrb_256s_pekie.png
+newmtl material_14FA0C
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 56
+map_Ka mrb_256s_pekif.png
+map_Kd mrb_256s_pekif.png
+newmtl material_14FA20
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 58
+map_Ka mrb_256s_pekih.png
+map_Kd mrb_256s_pekih.png
+newmtl material_14FA34
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 33
+map_Ka mrb_064s_yamatunaa.png
+map_Kd mrb_064s_yamatunaa.png
+newmtl material_14FA48
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 34
+map_Ka mrb_064s_yamatunab.png
+map_Kd mrb_064s_yamatunab.png
+newmtl material_14FA5C
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 35
+map_Ka mrb_064s_yamatunac.png
+map_Kd mrb_064s_yamatunac.png
+newmtl material_14FA70
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 69
+map_Ka mrb_256s_yamkabc.png
+map_Kd mrb_256s_yamkabc.png
+newmtl material_14FA84
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 53
+map_Ka mrb_256s_pekid.png
+map_Kd mrb_256s_pekid.png
+newmtl material_14FA98
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 50
+map_Ka mrb_256s_pekia.png
+map_Kd mrb_256s_pekia.png
+newmtl material_14FAAC
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 51
+map_Ka mrb_256s_pekib.png
+map_Kd mrb_256s_pekib.png
+newmtl material_14FAC0
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 52
+map_Ka mrb_256s_pekic.png
+map_Kd mrb_256s_pekic.png
+newmtl material_14FAD4
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 57
+map_Ka mrb_256s_pekig.png
+map_Kd mrb_256s_pekig.png
+newmtl material_14FAE8
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 57
+map_Ka mrb_256s_pekig.png
+map_Kd mrb_256s_pekig.png
+newmtl material_151C70
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 17
+map_Ka mr_128k_chprenga.png
+map_Kd mr_128k_chprenga.png
+newmtl material_151C84
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 25
+map_Ka mr_128k_cphori.png
+map_Kd mr_128k_cphori.png
+newmtl material_151C98
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 19
+map_Ka mr_128k_chpshita.png
+map_Kd mr_128k_chpshita.png
+newmtl material_151CAC
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 5
+map_Ka mr_064k_chwallue.png
+map_Kd mr_064k_chwallue.png
+newmtl material_152FA8
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 17
+map_Ka mr_128k_chprenga.png
+map_Kd mr_128k_chprenga.png
+newmtl material_152FBC
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 25
+map_Ka mr_128k_cphori.png
+map_Kd mr_128k_cphori.png
+newmtl material_152FD0
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 19
+map_Ka mr_128k_chpshita.png
+map_Kd mr_128k_chpshita.png
+newmtl material_152FE4
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 5
+map_Ka mr_064k_chwallue.png
+map_Kd mr_064k_chwallue.png
+newmtl material_152FF8
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 20
+map_Ka mr_128k_chptatesen.png
+map_Kd mr_128k_chptatesen.png
+newmtl material_1545D0
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 10
+map_Ka mr_128k_chpkirikuti.png
+map_Kd mr_128k_chpkirikuti.png
+newmtl material_1545E4
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 17
+map_Ka mr_128k_chprenga.png
+map_Kd mr_128k_chprenga.png
+newmtl material_1545F8
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 10
+map_Ka mr_128k_chpkirikuti.png
+map_Kd mr_128k_chpkirikuti.png
+newmtl material_15460C
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 10
+map_Ka mr_128k_chpkirikuti.png
+map_Kd mr_128k_chpkirikuti.png
+newmtl material_154620
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 11
+map_Ka mr_128k_chpkoke2.png
+map_Kd mr_128k_chpkoke2.png
+newmtl material_154634
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 24
+map_Ka mr_128k_chyukatest.png
+map_Kd mr_128k_chyukatest.png
+newmtl material_1551C0
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 4
+map_Ka mr_064k_chpmizo.png
+map_Kd mr_064k_chpmizo.png
+newmtl material_1551D4
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 20
+map_Ka mr_128k_chptatesen.png
+map_Kd mr_128k_chptatesen.png
+newmtl material_1551E8
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 10
+map_Ka mr_128k_chpkirikuti.png
+map_Kd mr_128k_chpkirikuti.png
+newmtl material_1551FC
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 2
+map_Ka mr_064k_chpkabekado.png
+map_Kd mr_064k_chpkabekado.png
+newmtl material_155638
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 11
+map_Ka mr_128k_chpkoke2.png
+map_Kd mr_128k_chpkoke2.png
+newmtl material_15564C
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 10
+map_Ka mr_128k_chpkirikuti.png
+map_Kd mr_128k_chpkirikuti.png
+newmtl material_155660
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 1
+map_Ka mr_064k_chpdaiza.png
+map_Kd mr_064k_chpdaiza.png
+newmtl material_155674
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 9
+map_Ka mr_128k_chpemepokin.png
+map_Kd mr_128k_chpemepokin.png
+newmtl material_1563E8
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 17
+map_Ka mr_128k_chprenga.png
+map_Kd mr_128k_chprenga.png
+newmtl material_1563FC
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 16
+map_Ka mr_128k_chppoue.png
+map_Kd mr_128k_chppoue.png
+newmtl material_156410
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 11
+map_Ka mr_128k_chpkoke2.png
+map_Kd mr_128k_chpkoke2.png
+newmtl material_156424
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 10
+map_Ka mr_128k_chpkirikuti.png
+map_Kd mr_128k_chpkirikuti.png
+newmtl material_156DE0
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 17
+map_Ka mr_128k_chprenga.png
+map_Kd mr_128k_chprenga.png
+newmtl material_156DF4
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 16
+map_Ka mr_128k_chppoue.png
+map_Kd mr_128k_chppoue.png
+newmtl material_156E08
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 11
+map_Ka mr_128k_chpkoke2.png
+map_Kd mr_128k_chpkoke2.png
+newmtl material_156E1C
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 10
+map_Ka mr_128k_chpkirikuti.png
+map_Kd mr_128k_chpkirikuti.png
+newmtl material_157730
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 4
+map_Ka mr_064k_chpmizo.png
+map_Kd mr_064k_chpmizo.png
+newmtl material_157744
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 20
+map_Ka mr_128k_chptatesen.png
+map_Kd mr_128k_chptatesen.png
+newmtl material_157758
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 10
+map_Ka mr_128k_chpkirikuti.png
+map_Kd mr_128k_chpkirikuti.png
+newmtl material_15776C
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 2
+map_Ka mr_064k_chpkabekado.png
+map_Kd mr_064k_chpkabekado.png
+newmtl material_157780
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 10
+map_Ka mr_128k_chpkirikuti.png
+map_Kd mr_128k_chpkirikuti.png
+newmtl material_157C30
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 4
+map_Ka mr_064k_chpmizo.png
+map_Kd mr_064k_chpmizo.png
+newmtl material_157C44
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 20
+map_Ka mr_128k_chptatesen.png
+map_Kd mr_128k_chptatesen.png
+newmtl material_157C58
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 10
+map_Ka mr_128k_chpkirikuti.png
+map_Kd mr_128k_chpkirikuti.png
+newmtl material_157C6C
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 2
+map_Ka mr_064k_chpkabekado.png
+map_Kd mr_064k_chpkabekado.png
+newmtl material_157C80
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 10
+map_Ka mr_128k_chpkirikuti.png
+map_Kd mr_128k_chpkirikuti.png
+newmtl material_158028
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 17
+map_Ka mr_128k_chprenga.png
+map_Kd mr_128k_chprenga.png
+newmtl material_15803C
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 11
+map_Ka mr_128k_chpkoke2.png
+map_Kd mr_128k_chpkoke2.png
+newmtl material_158050
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 20
+map_Ka mr_128k_chptatesen.png
+map_Kd mr_128k_chptatesen.png
+newmtl material_158064
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 4
+map_Ka mr_064k_chpmizo.png
+map_Kd mr_064k_chpmizo.png
+newmtl material_158078
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 10
+map_Ka mr_128k_chpkirikuti.png
+map_Kd mr_128k_chpkirikuti.png
+newmtl material_15860C
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 17
+map_Ka mr_128k_chprenga.png
+map_Kd mr_128k_chprenga.png
+newmtl material_158620
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 11
+map_Ka mr_128k_chpkoke2.png
+map_Kd mr_128k_chpkoke2.png
+newmtl material_158634
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 10
+map_Ka mr_128k_chpkirikuti.png
+map_Kd mr_128k_chpkirikuti.png
+newmtl material_1589BC
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 17
+map_Ka mr_128k_chprenga.png
+map_Kd mr_128k_chprenga.png
+newmtl material_1589D0
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 11
+map_Ka mr_128k_chpkoke2.png
+map_Kd mr_128k_chpkoke2.png
+newmtl material_1589E4
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 10
+map_Ka mr_128k_chpkirikuti.png
+map_Kd mr_128k_chpkirikuti.png
+newmtl material_158D6C
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 17
+map_Ka mr_128k_chprenga.png
+map_Kd mr_128k_chprenga.png
+newmtl material_158D80
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 11
+map_Ka mr_128k_chpkoke2.png
+map_Kd mr_128k_chpkoke2.png
+newmtl material_158D94
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 10
+map_Ka mr_128k_chpkirikuti.png
+map_Kd mr_128k_chpkirikuti.png
+newmtl material_15911C
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 17
+map_Ka mr_128k_chprenga.png
+map_Kd mr_128k_chprenga.png
+newmtl material_159130
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 11
+map_Ka mr_128k_chpkoke2.png
+map_Kd mr_128k_chpkoke2.png
+newmtl material_159144
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 10
+map_Ka mr_128k_chpkirikuti.png
+map_Kd mr_128k_chpkirikuti.png
+newmtl material_1594CC
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 11
+map_Ka mr_128k_chpkoke2.png
+map_Kd mr_128k_chpkoke2.png
+newmtl material_1594E0
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 17
+map_Ka mr_128k_chprenga.png
+map_Kd mr_128k_chprenga.png
+newmtl material_1594F4
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 22
+map_Ka mr_128k_chpueha.png
+map_Kd mr_128k_chpueha.png
+newmtl material_1598A0
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 11
+map_Ka mr_128k_chpkoke2.png
+map_Kd mr_128k_chpkoke2.png
+newmtl material_1598B4
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 17
+map_Ka mr_128k_chprenga.png
+map_Kd mr_128k_chprenga.png
+newmtl material_1598C8
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 22
+map_Ka mr_128k_chpueha.png
+map_Kd mr_128k_chpueha.png
+newmtl material_159B78
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 11
+map_Ka mr_128k_chpkoke2.png
+map_Kd mr_128k_chpkoke2.png
+newmtl material_159B8C
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 10
+map_Ka mr_128k_chpkirikuti.png
+map_Kd mr_128k_chpkirikuti.png
+newmtl material_159E38
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 11
+map_Ka mr_128k_chpkoke2.png
+map_Kd mr_128k_chpkoke2.png
+newmtl material_159E4C
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 7
+map_Ka mr_128k_chemepo.png
+map_Kd mr_128k_chemepo.png
+newmtl material_159E60
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 15
+map_Ka mr_128k_chpmoyou.png
+map_Kd mr_128k_chpmoyou.png
+newmtl material_159E74
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 10
+map_Ka mr_128k_chpkirikuti.png
+map_Kd mr_128k_chpkirikuti.png
+newmtl material_15A3D8
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 26
+map_Ka mr_128k_cpkakine.png
+map_Kd mr_128k_cpkakine.png
+newmtl material_15A3EC
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 3
+map_Ka mr_064k_chpkakiue.png
+map_Kd mr_064k_chpkakiue.png
+newmtl material_15A400
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 26
+map_Ka mr_128k_cpkakine.png
+map_Kd mr_128k_cpkakine.png
+newmtl material_15B3E0
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 11
+map_Ka mr_128k_chpkoke2.png
+map_Kd mr_128k_chpkoke2.png
+newmtl material_15B3F4
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 9
+map_Ka mr_128k_chpemepokin.png
+map_Kd mr_128k_chpemepokin.png
+newmtl material_15B5B0
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 18
+map_Ka mr_128k_chprengaheri.png
+map_Kd mr_128k_chprengaheri.png
+newmtl material_15B5C4
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 23
+map_Ka mr_128k_chpuekusaha.png
+map_Kd mr_128k_chpuekusaha.png
+newmtl material_15B7A8
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 11
+map_Ka mr_128k_chpkoke2.png
+map_Kd mr_128k_chpkoke2.png
+newmtl material_15B7BC
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 12
+map_Ka mr_128k_chpkusa.png
+map_Kd mr_128k_chpkusa.png
+newmtl material_15B7D0
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 11
+map_Ka mr_128k_chpkoke2.png
+map_Kd mr_128k_chpkoke2.png
+newmtl material_15B7E4
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 11
+map_Ka mr_128k_chpkoke2.png
+map_Kd mr_128k_chpkoke2.png
+newmtl material_15EDD8
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 8
+map_Ka mr_128k_chpbigiwa.png
+map_Kd mr_128k_chpbigiwa.png
+newmtl material_15EDEC
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 10
+map_Ka mr_128k_chpkirikuti.png
+map_Kd mr_128k_chpkirikuti.png
+newmtl material_15F0E8
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 20
+map_Ka mr_128k_chptatesen.png
+map_Kd mr_128k_chptatesen.png
+newmtl material_15F0FC
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 19
+map_Ka mr_128k_chpshita.png
+map_Kd mr_128k_chpshita.png
+newmtl material_160F48
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 19
+map_Ka mr_128k_chpshita.png
+map_Kd mr_128k_chpshita.png
+newmtl material_160F5C
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 10
+map_Ka mr_128k_chpkirikuti.png
+map_Kd mr_128k_chpkirikuti.png
+newmtl material_16115C
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 46
+map_Ka mrb_256s_aonac.png
+map_Kd mrb_256s_aonac.png
+newmtl material_161170
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 46
+map_Ka mrb_256s_aonac.png
+map_Kd mrb_256s_aonac.png
+newmtl material_161184
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 44
+map_Ka mrb_256s_aonaa.png
+map_Kd mrb_256s_aonaa.png
+newmtl material_169044
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 46
+map_Ka mrb_256s_aonac.png
+map_Kd mrb_256s_aonac.png
+newmtl material_169058
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 45
+map_Ka mrb_256s_aonab.png
+map_Kd mrb_256s_aonab.png
+newmtl material_16ED34
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 46
+map_Ka mrb_256s_aonac.png
+map_Kd mrb_256s_aonac.png
+newmtl material_175980
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 0
+map_Ka mr_008o_kuro.png
+map_Kd mr_008o_kuro.png
+newmtl material_175994
+Ka 1 1 1
+Kd 0 0 0.0196078438311815
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 0
+map_Ka mr_008o_kuro.png
+map_Kd mr_008o_kuro.png
+newmtl material_1759A8
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 46
+map_Ka mrb_256s_aonac.png
+map_Kd mrb_256s_aonac.png
+newmtl material_1759BC
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 44
+map_Ka mrb_256s_aonaa.png
+map_Kd mrb_256s_aonaa.png
+newmtl material_1759D0
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 45
+map_Ka mrb_256s_aonab.png
+map_Kd mrb_256s_aonab.png
+newmtl material_1759E4
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 46
+map_Ka mrb_256s_aonac.png
+map_Kd mrb_256s_aonac.png
+newmtl material_1759F8
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 46
+map_Ka mrb_256s_aonac.png
+map_Kd mrb_256s_aonac.png
+newmtl material_179640
+Ka 1 1 1
+Kd 0 0.69803923368454 0.69803923368454
+d 0.396078437566757
+Tr 0.396078437566757
+Ks 1 1 1
+illum 1
+texid 6
+map_Ka mr_064s_kori.png
+map_Kd mr_064s_kori.png
+newmtl material_17D80C
+Ka 1 1 1
+Kd 0.00392156885936856 0.69803923368454 0.69803923368454
+d 0.396078437566757
+Tr 0.396078437566757
+Ks 1 1 1
+illum 1
+texid 6
+map_Ka mr_064s_kori.png
+map_Kd mr_064s_kori.png
+newmtl material_17F900
+Ka 1 1 1
+Kd 0.184313729405403 0.482352942228317 0.388235300779343
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 41
+map_Ka mrb_128s_kusa.png
+map_Kd mrb_128s_kusa.png
+newmtl material_17FB08
+Ka 1 1 1
+Kd 0.592156887054443 0.737254917621613 0.925490200519562
+d 0.298039227724075
+Tr 0.298039227724075
+Ks 1 1 1
+illum 1
+texid 27
+map_Ka mra_256_water.png
+map_Kd mra_256_water.png
+newmtl material_17FB1C
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 0.149019613862038
+Tr 0.149019613862038
+Ks 1 1 1
+illum 1
+texid 27
+map_Ka mra_256_water.png
+map_Kd mra_256_water.png
+newmtl material_17FB30
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 0.149019613862038
+Tr 0.149019613862038
+Ks 1 1 1
+illum 1
+texid 27
+map_Ka mra_256_water.png
+map_Kd mra_256_water.png
+newmtl material_17FB44
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 0.196078434586525
+Tr 0.196078434586525
+Ks 1 1 1
+illum 1
+texid 27
+map_Ka mra_256_water.png
+map_Kd mra_256_water.png
+newmtl material_17FB58
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 0.196078434586525
+Tr 0.196078434586525
+Ks 1 1 1
+illum 1
+texid 27
+map_Ka mra_256_water.png
+map_Kd mra_256_water.png
+newmtl material_17FB6C
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 0.196078434586525
+Tr 0.196078434586525
+Ks 1 1 1
+illum 1
+texid 27
+map_Ka mra_256_water.png
+map_Kd mra_256_water.png
+newmtl material_180568
+Ka 1 1 1
+Kd 0 0.69803923368454 0.69803923368454
+d 0.396078437566757
+Tr 0.396078437566757
+Ks 1 1 1
+illum 1
+texid 6
+map_Ka mr_064s_kori.png
+map_Kd mr_064s_kori.png
+newmtl material_1873D8
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 26
+map_Ka mr_128k_cpkakine.png
+map_Kd mr_128k_cpkakine.png
+newmtl material_1873EC
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 26
+map_Ka mr_128k_cpkakine.png
+map_Kd mr_128k_cpkakine.png
+newmtl material_187400
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 3
+map_Ka mr_064k_chpkakiue.png
+map_Kd mr_064k_chpkakiue.png
+newmtl material_187414
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 26
+map_Ka mr_128k_cpkakine.png
+map_Kd mr_128k_cpkakine.png
+newmtl material_188120
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 3
+map_Ka mr_064k_chpkakiue.png
+map_Kd mr_064k_chpkakiue.png
+newmtl material_188134
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 26
+map_Ka mr_128k_cpkakine.png
+map_Kd mr_128k_cpkakine.png
+newmtl material_188148
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 3
+map_Ka mr_064k_chpkakiue.png
+map_Kd mr_064k_chpkakiue.png
+newmtl material_18815C
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 26
+map_Ka mr_128k_cpkakine.png
+map_Kd mr_128k_cpkakine.png
+newmtl material_188170
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 26
+map_Ka mr_128k_cpkakine.png
+map_Kd mr_128k_cpkakine.png
+newmtl material_188528
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 10
+map_Ka mr_128k_chpkirikuti.png
+map_Kd mr_128k_chpkirikuti.png
+newmtl material_18853C
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 21
+map_Ka mr_128k_chptuti.png
+map_Kd mr_128k_chptuti.png
+newmtl material_188550
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 11
+map_Ka mr_128k_chpkoke2.png
+map_Kd mr_128k_chpkoke2.png
+newmtl material_188564
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 11
+map_Ka mr_128k_chpkoke2.png
+map_Kd mr_128k_chpkoke2.png
+newmtl material_188578
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 12
+map_Ka mr_128k_chpkusa.png
+map_Kd mr_128k_chpkusa.png
+newmtl material_18858C
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 10
+map_Ka mr_128k_chpkirikuti.png
+map_Kd mr_128k_chpkirikuti.png
+newmtl material_188F70
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 4
+map_Ka mr_064k_chpmizo.png
+map_Kd mr_064k_chpmizo.png
+newmtl material_188F84
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 10
+map_Ka mr_128k_chpkirikuti.png
+map_Kd mr_128k_chpkirikuti.png
+newmtl material_188F98
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 16
+map_Ka mr_128k_chppoue.png
+map_Kd mr_128k_chppoue.png
+newmtl material_188FAC
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 8
+map_Ka mr_128k_chpbigiwa.png
+map_Kd mr_128k_chpbigiwa.png
+newmtl material_188FC0
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 8
+map_Ka mr_128k_chpbigiwa.png
+map_Kd mr_128k_chpbigiwa.png
+newmtl material_188FD4
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 8
+map_Ka mr_128k_chpbigiwa.png
+map_Kd mr_128k_chpbigiwa.png
+newmtl material_188FE8
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 4
+map_Ka mr_064k_chpmizo.png
+map_Kd mr_064k_chpmizo.png
+newmtl material_18A0C0
+Ka 1 1 1
+Kd 0.443137258291245 0.309803932905197 0.219607844948769
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 38
+map_Ka mrb_128s_criwaa.png
+map_Kd mrb_128s_criwaa.png
+newmtl material_18A0D4
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 38
+map_Ka mrb_128s_criwaa.png
+map_Kd mrb_128s_criwaa.png
+newmtl material_18A0E8
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 39
+map_Ka mrb_128s_criwab.png
+map_Kd mrb_128s_criwab.png
+newmtl material_18A0FC
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 40
+map_Ka mrb_128s_criwac.png
+map_Kd mrb_128s_criwac.png
+newmtl material_18A110
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 38
+map_Ka mrb_128s_criwaa.png
+map_Kd mrb_128s_criwaa.png
+newmtl material_18A124
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 39
+map_Ka mrb_128s_criwab.png
+map_Kd mrb_128s_criwab.png
+newmtl material_18A6C8
+Ka 1 1 1
+Kd 0.443137258291245 0.309803932905197 0.219607844948769
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 38
+map_Ka mrb_128s_criwaa.png
+map_Kd mrb_128s_criwaa.png
+newmtl material_18A6DC
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 38
+map_Ka mrb_128s_criwaa.png
+map_Kd mrb_128s_criwaa.png
+newmtl material_18A6F0
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 39
+map_Ka mrb_128s_criwab.png
+map_Kd mrb_128s_criwab.png
+newmtl material_18A704
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 40
+map_Ka mrb_128s_criwac.png
+map_Kd mrb_128s_criwac.png
+newmtl material_18A718
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 40
+map_Ka mrb_128s_criwac.png
+map_Kd mrb_128s_criwac.png
+newmtl material_18A72C
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 40
+map_Ka mrb_128s_criwac.png
+map_Kd mrb_128s_criwac.png
+newmtl material_18AE50
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 38
+map_Ka mrb_128s_criwaa.png
+map_Kd mrb_128s_criwaa.png
+newmtl material_18AE64
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 38
+map_Ka mrb_128s_criwaa.png
+map_Kd mrb_128s_criwaa.png
+newmtl material_18AE78
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 39
+map_Ka mrb_128s_criwab.png
+map_Kd mrb_128s_criwab.png
+newmtl material_18AE8C
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 40
+map_Ka mrb_128s_criwac.png
+map_Kd mrb_128s_criwac.png
+newmtl material_18AEA0
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 40
+map_Ka mrb_128s_criwac.png
+map_Kd mrb_128s_criwac.png
+newmtl material_18AEB4
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 40
+map_Ka mrb_128s_criwac.png
+map_Kd mrb_128s_criwac.png
+newmtl material_18B660
+Ka 1 1 1
+Kd 0.443137258291245 0.309803932905197 0.219607844948769
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 38
+map_Ka mrb_128s_criwaa.png
+map_Kd mrb_128s_criwaa.png
+newmtl material_18B674
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 38
+map_Ka mrb_128s_criwaa.png
+map_Kd mrb_128s_criwaa.png
+newmtl material_18B688
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 39
+map_Ka mrb_128s_criwab.png
+map_Kd mrb_128s_criwab.png
+newmtl material_18B69C
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 40
+map_Ka mrb_128s_criwac.png
+map_Kd mrb_128s_criwac.png
+newmtl material_18B6B0
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 40
+map_Ka mrb_128s_criwac.png
+map_Kd mrb_128s_criwac.png
+newmtl material_18B6C4
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 38
+map_Ka mrb_128s_criwaa.png
+map_Kd mrb_128s_criwaa.png
+newmtl material_18B6D8
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 39
+map_Ka mrb_128s_criwab.png
+map_Kd mrb_128s_criwab.png
+newmtl material_18B6EC
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 40
+map_Ka mrb_128s_criwac.png
+map_Kd mrb_128s_criwac.png
+newmtl material_18C228
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 62
+map_Ka mrb_256s_simuec.png
+map_Kd mrb_256s_simuec.png
+newmtl material_18C23C
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 59
+map_Ka mrb_256s_simb.png
+map_Kd mrb_256s_simb.png
+newmtl material_18C250
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 61
+map_Ka mrb_256s_simueb.png
+map_Kd mrb_256s_simueb.png
+newmtl material_18C264
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 60
+map_Ka mrb_256s_simuea.png
+map_Kd mrb_256s_simuea.png
+newmtl material_18C278
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 71
+map_Ka mrb_256s_simued.png
+map_Kd mrb_256s_simued.png
+newmtl material_18C28C
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 59
+map_Ka mrb_256s_simb.png
+map_Kd mrb_256s_simb.png
+newmtl material_191068
+Ka 1 1 1
+Kd 0.443137258291245 0.309803932905197 0.219607844948769
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 38
+map_Ka mrb_128s_criwaa.png
+map_Kd mrb_128s_criwaa.png
+newmtl material_19107C
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 38
+map_Ka mrb_128s_criwaa.png
+map_Kd mrb_128s_criwaa.png
+newmtl material_191090
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 39
+map_Ka mrb_128s_criwab.png
+map_Kd mrb_128s_criwab.png
+newmtl material_1910A4
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 40
+map_Ka mrb_128s_criwac.png
+map_Kd mrb_128s_criwac.png
+newmtl material_1910B8
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 40
+map_Ka mrb_128s_criwac.png
+map_Kd mrb_128s_criwac.png
+newmtl material_1910CC
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 38
+map_Ka mrb_128s_criwaa.png
+map_Kd mrb_128s_criwaa.png
+newmtl material_1910E0
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 39
+map_Ka mrb_128s_criwab.png
+map_Kd mrb_128s_criwab.png
+newmtl material_191EF8
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 38
+map_Ka mrb_128s_criwaa.png
+map_Kd mrb_128s_criwaa.png
+newmtl material_191F0C
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 38
+map_Ka mrb_128s_criwaa.png
+map_Kd mrb_128s_criwaa.png
+newmtl material_191F20
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 39
+map_Ka mrb_128s_criwab.png
+map_Kd mrb_128s_criwab.png
+newmtl material_191F34
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 40
+map_Ka mrb_128s_criwac.png
+map_Kd mrb_128s_criwac.png
+newmtl material_191F48
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 40
+map_Ka mrb_128s_criwac.png
+map_Kd mrb_128s_criwac.png
+newmtl material_191F5C
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 40
+map_Ka mrb_128s_criwac.png
+map_Kd mrb_128s_criwac.png
+newmtl material_191F70
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 40
+map_Ka mrb_128s_criwac.png
+map_Kd mrb_128s_criwac.png
+newmtl material_193180
+Ka 1 1 1
+Kd 0.443137258291245 0.309803932905197 0.219607844948769
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 38
+map_Ka mrb_128s_criwaa.png
+map_Kd mrb_128s_criwaa.png
+newmtl material_193194
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 38
+map_Ka mrb_128s_criwaa.png
+map_Kd mrb_128s_criwaa.png
+newmtl material_1931A8
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 39
+map_Ka mrb_128s_criwab.png
+map_Kd mrb_128s_criwab.png
+newmtl material_1931BC
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 40
+map_Ka mrb_128s_criwac.png
+map_Kd mrb_128s_criwac.png
+newmtl material_1931D0
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 40
+map_Ka mrb_128s_criwac.png
+map_Kd mrb_128s_criwac.png
+newmtl material_1931E4
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 40
+map_Ka mrb_128s_criwac.png
+map_Kd mrb_128s_criwac.png
+newmtl material_193C08
+Ka 1 1 1
+Kd 0.443137258291245 0.309803932905197 0.219607844948769
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 38
+map_Ka mrb_128s_criwaa.png
+map_Kd mrb_128s_criwaa.png
+newmtl material_193C1C
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 38
+map_Ka mrb_128s_criwaa.png
+map_Kd mrb_128s_criwaa.png
+newmtl material_193C30
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 39
+map_Ka mrb_128s_criwab.png
+map_Kd mrb_128s_criwab.png
+newmtl material_193C44
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 40
+map_Ka mrb_128s_criwac.png
+map_Kd mrb_128s_criwac.png
+newmtl material_193C58
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 40
+map_Ka mrb_128s_criwac.png
+map_Kd mrb_128s_criwac.png
+newmtl material_193C6C
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 38
+map_Ka mrb_128s_criwaa.png
+map_Kd mrb_128s_criwaa.png
+newmtl material_193C80
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 39
+map_Ka mrb_128s_criwab.png
+map_Kd mrb_128s_criwab.png
+newmtl material_193C94
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 40
+map_Ka mrb_128s_criwac.png
+map_Kd mrb_128s_criwac.png
+newmtl material_194CE8
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 50
+map_Ka mrb_256s_pekia.png
+map_Kd mrb_256s_pekia.png
+newmtl material_194CFC
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 70
+map_Ka mrb_512s_pekia.png
+map_Kd mrb_512s_pekia.png
+newmtl material_194D10
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 52
+map_Ka mrb_256s_pekic.png
+map_Kd mrb_256s_pekic.png
+newmtl material_194D24
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 50
+map_Ka mrb_256s_pekia.png
+map_Kd mrb_256s_pekia.png
+newmtl material_194D38
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 57
+map_Ka mrb_256s_pekig.png
+map_Kd mrb_256s_pekig.png
+newmtl material_196378
+Ka 1 1 1
+Kd 0.592156887054443 0.737254917621613 0.925490200519562
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 37
+map_Ka mrb_128s_aonad.png
+map_Kd mrb_128s_aonad.png
+newmtl material_19638C
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 37
+map_Ka mrb_128s_aonad.png
+map_Kd mrb_128s_aonad.png
+newmtl material_1963A0
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 44
+map_Ka mrb_256s_aonaa.png
+map_Kd mrb_256s_aonaa.png
+newmtl material_1963B4
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 45
+map_Ka mrb_256s_aonab.png
+map_Kd mrb_256s_aonab.png
+newmtl material_1963C8
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 37
+map_Ka mrb_128s_aonad.png
+map_Kd mrb_128s_aonad.png
+newmtl material_1963DC
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 44
+map_Ka mrb_256s_aonaa.png
+map_Kd mrb_256s_aonaa.png
+newmtl material_1963F0
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 44
+map_Ka mrb_256s_aonaa.png
+map_Kd mrb_256s_aonaa.png
+newmtl material_197664
+Ka 1 1 1
+Kd 0.850980401039124 1 1
+d 0.298039227724075
+Tr 0.298039227724075
+Ks 1 1 1
+illum 1
+texid 27
+map_Ka mra_256_water.png
+map_Kd mra_256_water.png
+newmtl material_19B718
+Ka 1 1 1
+Kd 0 0.529411792755127 0.18823529779911
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 12
+map_Ka mr_128k_chpkusa.png
+map_Kd mr_128k_chpkusa.png
+newmtl material_19B72C
+Ka 1 1 1
+Kd 0.584313750267029 0.541176497936249 0.517647087574005
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 12
+map_Ka mr_128k_chpkusa.png
+map_Kd mr_128k_chpkusa.png
+newmtl material_19B740
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 21
+map_Ka mr_128k_chptuti.png
+map_Kd mr_128k_chptuti.png
+newmtl material_19B754
+Ka 1 1 1
+Kd 0.69803923368454 0.69803923368454 0.69803923368454
+d 1
+Tr 1
+Ks 1 1 1
+illum 1
+texid 32
+map_Ka mrb_064s_kusaisi.png
+map_Kd mrb_064s_kusaisi.png
+#EOF
