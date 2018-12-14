@@ -84,6 +84,7 @@ public class NetworkHUD : NetworkManager
 
 
 
+
     //call this method to find a match through the matchmaker
     public void FindInternetMatch()
     {
@@ -95,4 +96,5 @@ public class NetworkHUD : NetworkManager
     {
         NetworkManager.singleton.matchMaker.CreateMatch("Test", 4, true, "", "", "", 0, 0, OnInternetMatchCreate);
     }
+
 }

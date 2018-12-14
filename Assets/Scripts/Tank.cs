@@ -35,7 +35,7 @@ public class Tank : NetworkBehaviour
     public bool localPlayer;
 
     [Header("Camera")]
-    [SyncVar] public Vector3 targetTracker;
+    [SyncVar()] public Vector3 cameraTracker;
 
     [Header("Stats")]
     public float speed = 6.0f;
@@ -93,7 +93,7 @@ public class Tank : NetworkBehaviour
 
     private void Update()
     {
-        CmdUpdateCamera();
+        
         if (!shadow)
         {
             shadow = Instantiate(shadowPrefab);
@@ -109,8 +109,10 @@ public class Tank : NetworkBehaviour
 
 
         if (invisibility > 0) Invisibility();
-        AttackUp();
-        HomingMissile();
+        else if (attackUp > 0) AttackUp();
+        else if (homingMissile > 0) HomingMissile();
+
+
 
 
 
@@ -126,15 +128,13 @@ public class Tank : NetworkBehaviour
 
         if (isLocalPlayer)
         {
-            
             if (buttonFire &&  t < 0)
             {
                 t = reloadTime;
-                print("A");
                 CmdFire();
                 buttonFire = false;
             }
-            targetTracker = Camera.main.transform.position;
+            cameraTracker = Camera.main.transform.position;
             Move();
         }
         
@@ -181,7 +181,6 @@ public class Tank : NetworkBehaviour
         if (PV <= 0)
         {
             PV = 100;
-            score = Mathf.Max(score - 1, 0);
             if (player != -1)
             {
                 GameObject.FindGameObjectsWithTag("Player")[player-1].GetComponent<Tank>().score++;
@@ -216,11 +215,7 @@ public class Tank : NetworkBehaviour
         NetworkServer.Spawn(bullet);
     }
 
-    [Command]
-    public void CmdUpdateCamera()
-    {
-       if (isLocalPlayer) targetTracker = Camera.main.transform.position;
-    }
+  
 
     public void FireButton()
     {
@@ -288,6 +283,6 @@ public class Tank : NetworkBehaviour
     private void OnDrawGizmos()
     {
         Gizmos.color = colors[(ID - 1)];
-        Gizmos.DrawWireSphere(targetTracker, 1);
+        Gizmos.DrawSphere(cameraTracker, 2);
     }
 }

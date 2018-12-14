@@ -620,7 +620,7 @@ MonoBehaviour:
   - {fileID: 23504108620336368}
   - {fileID: 23108587190629590}
   ID: 0
-  bulletPrefab: {fileID: 1859488397498200, guid: 439b5e6b7b280a449940b5c064c04679,
+  bulletPrefab: {fileID: 1098364679319170, guid: 023e3ce2e195e554c946ba1f2ad1218a,
     type: 2}
   bigBulletPrefab: {fileID: 1862921143876722, guid: f6f48cf30225074459efc2960d159e27,
     type: 2}

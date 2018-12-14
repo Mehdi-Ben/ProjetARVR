@@ -16,6 +16,9 @@ public class PlayerCount : MonoBehaviour
     public Image invisibility;
     public Image attackUp;
     public Image homingMissile;
+    public Image joystickBas;
+    public Image joystickHaut;
+    public Image fireButton;
 
     public float pvCourant;
 
@@ -44,6 +47,10 @@ public class PlayerCount : MonoBehaviour
         score.text = player.score.ToString("00");
         score.color = Tank.colors[(player.ID - 1)];
         nbPlayer.color = Tank.colors[(player.ID - 1)];
+
+        joystickBas.color = Tank.colors[(player.ID - 1)]; 
+        joystickHaut.color = Tank.colors[(player.ID - 1)];
+        fireButton.color = Tank.colors[(player.ID - 1)];
 
         nbPlayer.text = tanks.Length.ToString();
 
