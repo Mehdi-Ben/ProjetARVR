@@ -290,4 +290,9 @@ public class Tank : NetworkBehaviour
         Gizmos.color = colors[(ID - 1)];
         Gizmos.DrawWireSphere(targetTracker, 1);
     }
+
+    private void OnDestroy()
+    {
+        Destroy(shadow);
+    }
 }

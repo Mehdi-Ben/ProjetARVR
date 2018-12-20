@@ -1,0 +1,184 @@
+newmtl base
+Ka 0 0 0
+Kd 0.972549 0.972549 0.972549
+d 1
+Tr 1
+map_Ka base.png
+map_Kd base.png
+map_d base.png
+newmtl beam
+Ka 0 0 0
+Kd 0.972549 0.972549 0.972549
+d 1
+Tr 1
+map_Ka beam.png
+map_Kd beam.png
+map_d beam.png
+newmtl bg_enkei3
+Ka 0 0 0
+Kd 0.972549 0.972549 0.972549
+d 1
+Tr 1
+map_Ka bg_enkei3.png
+map_Kd bg_enkei3.png
+map_d bg_enkei3.png
+newmtl bg_enkei4
+Ka 0 0 0
+Kd 0.972549 0.972549 0.972549
+d 1
+Tr 1
+map_Ka bg_enkei4.png
+map_Kd bg_enkei4.png
+map_d bg_enkei4.png
+newmtl bubble
+Ka 0 0 0
+Kd 0.972549 0.972549 0.972549
+d 1
+Tr 1
+map_Ka bubble.png
+map_Kd bubble.png
+map_d bubble.png
+newmtl entei_side
+Ka 0 0 0
+Kd 0.972549 0.972549 0.972549
+d 1
+Tr 1
+map_Ka entei_side.png
+map_Kd entei_side.png
+map_d entei_side.png
+newmtl kanaami
+Ka 0 0 0
+Kd 0.972549 0.972549 0.972549
+d 1
+Tr 1
+map_Ka kanaami.png
+map_Kd kanaami.png
+map_d kanaami.png
+newmtl pillar
+Ka 0 0 0
+Kd 0.972549 0.972549 0.972549
+d 1
+Tr 1
+map_Ka pillar.png
+map_Kd pillar.png
+map_d pillar.png
+newmtl pillar1_both
+Ka 0 0 0
+Kd 0.972549 0.972549 0.972549
+d 1
+Tr 1
+map_Ka pillar1_both.png
+map_Kd pillar1_both.png
+map_d pillar1_both.png
+newmtl pillar1_both1
+Ka 0 0 0
+Kd 0.972549 0.972549 0.972549
+d 1
+Tr 1
+map_Ka pillar1_both1.png
+map_Kd pillar1_both1.png
+map_d pillar1_both1.png
+newmtl rock
+Ka 0 0 0
+Kd 0.972549 0.972549 0.972549
+d 1
+Tr 1
+map_Ka rock.png
+map_Kd rock.png
+map_d rock.png
+newmtl wall1
+Ka 0 0 0
+Kd 0.972549 0.972549 0.972549
+d 1
+Tr 1
+map_Ka wall1.png
+map_Kd wall1.png
+map_d wall1.png
+newmtl wall2
+Ka 0 0 0
+Kd 0.972549 0.972549 0.972549
+d 1
+Tr 1
+map_Ka wall2.png
+map_Kd wall2.png
+map_d wall2.png
+newmtl wall_both
+Ka 0 0 0
+Kd 0.972549 0.972549 0.972549
+d 1
+Tr 1
+map_Ka wall_both.png
+map_Kd wall_both.png
+map_d wall_both.png
+newmtl wall_both1
+Ka 0 0 0
+Kd 0.972549 0.972549 0.972549
+d 1
+Tr 1
+map_Ka wall_both1.png
+map_Kd wall_both1.png
+map_d wall_both1.png
+newmtl water1
+Ka 0 0 0
+Kd 0.972549 0.972549 0.972549
+d 1
+Tr 1
+map_Ka water1.png
+map_Kd water1.png
+map_d water1.png
+newmtl water2
+Ka 0 0 0
+Kd 0.972549 0.972549 0.972549
+d 1
+Tr 1
+map_Ka water2.png
+map_Kd water2.png
+map_d water2.png
+newmtl weak_1
+Ka 0 0 0
+Kd 0.972549 0.972549 0.972549
+d 1
+Tr 1
+map_Ka weak_1.png
+map_Kd weak_1.png
+map_d weak_1.png
+newmtl weak_2
+Ka 0 0 0
+Kd 0.972549 0.972549 0.972549
+d 1
+Tr 1
+map_Ka weak_2.png
+map_Kd weak_2.png
+map_d weak_2.png
+newmtl weak_br
+Ka 0 0 0
+Kd 0.972549 0.972549 0.972549
+d 1
+Tr 1
+map_Ka weak_br.png
+map_Kd weak_br.png
+map_d weak_br.png
+newmtl weak_eye
+Ka 0 0 0
+Kd 0.972549 0.972549 0.972549
+d 1
+Tr 1
+map_Ka weak_eye.png
+map_Kd weak_eye.png
+map_d weak_eye.png
+newmtl weak_off
+Ka 0 0 0
+Kd 0.972549 0.972549 0.972549
+d 1
+Tr 1
+map_Ka weak_off.png
+map_Kd weak_off.png
+map_d weak_off.png
+newmtl weak_on
+Ka 0 0 0
+Kd 0.972549 0.972549 0.972549
+d 1
+Tr 1
+map_Ka weak_on.png
+map_Kd weak_on.png
+map_d weak_on.png

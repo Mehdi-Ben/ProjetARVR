@@ -37,6 +37,10 @@ public class PlayerCount : MonoBehaviour
                 if (tank.isLocalPlayer) player = tank; break;
             }
         }
+        else
+        {
+            if (!player.isClient) Destroy(gameObject);
+        }
         if (!player) return;
         PVGauge.fillAmount -= (PVGauge.fillAmount - (player.PV * 0.01f)) * 0.2f;
         PV.text = (Mathf.Round(PVGauge.fillAmount*100)).ToString("00");

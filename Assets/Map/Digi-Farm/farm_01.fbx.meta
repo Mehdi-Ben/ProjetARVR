@@ -1,0 +1,205 @@
+fileFormatVersion: 2
+guid: 2a68ddd148cda4d4a82b264ab40cfd73
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Camera
+    100002: Digimon
+    100004: Digimon1
+    100006: Digimon2
+    100008: Digimon3
+    100010: Directional light
+    100012: DrawAreaClip
+    100014: DrawAreaEditor
+    100016: //RootNode
+    100018: FarmBuilder
+    100020: FarmColosseum_C
+    100022: FarmColosseum_LightRoot_1
+    100024: FarmColosseum_LightRoot_2
+    100026: FarmColosseum_O
+    100028: FarmColosseum_O 1
+    100030: FarmFieldEditor
+    100032: Grid
+    100034: IlandColosseum
+    100036: IlandColosseum 1
+    100038: Island
+    100040: lighting
+    100042: lighting 1
+    100044: lighting 2
+    100046: lighting 3
+    100048: lighting 4
+    100050: lighting 5
+    100052: lighting 6
+    100054: lighting 7
+    100056: lighting2Locator_3
+    100058: lighting2Locator_4
+    100060: lighting2Rocator_1
+    100062: lighting2Rocator_2
+    100064: lightingLocator_3
+    100066: lightingLocator_4
+    100068: lightingRocator_1
+    100070: lightingRocator_2
+    100072: LightingRoot
+    100074: lightingRoot1_1
+    100076: lightingRoot1_2
+    100078: lightingRoot1_3
+    100080: lightingRoot1_4
+    100082: lightingRoot2_1
+    100084: lightingRoot2_2
+    100086: lightingRoot2_3
+    100088: lightingRoot2_4
+    100090: Locator
+    100092: Par_square
+    100094: prefab
+    100096: Scenery
+    100098: Sea
+    400000: Camera
+    400002: Digimon
+    400004: Digimon1
+    400006: Digimon2
+    400008: Digimon3
+    400010: Directional light
+    400012: DrawAreaClip
+    400014: DrawAreaEditor
+    400016: //RootNode
+    400018: FarmBuilder
+    400020: FarmColosseum_C
+    400022: FarmColosseum_LightRoot_1
+    400024: FarmColosseum_LightRoot_2
+    400026: FarmColosseum_O
+    400028: FarmColosseum_O 1
+    400030: FarmFieldEditor
+    400032: Grid
+    400034: IlandColosseum
+    400036: IlandColosseum 1
+    400038: Island
+    400040: lighting
+    400042: lighting 1
+    400044: lighting 2
+    400046: lighting 3
+    400048: lighting 4
+    400050: lighting 5
+    400052: lighting 6
+    400054: lighting 7
+    400056: lighting2Locator_3
+    400058: lighting2Locator_4
+    400060: lighting2Rocator_1
+    400062: lighting2Rocator_2
+    400064: lightingLocator_3
+    400066: lightingLocator_4
+    400068: lightingRocator_1
+    400070: lightingRocator_2
+    400072: LightingRoot
+    400074: lightingRoot1_1
+    400076: lightingRoot1_2
+    400078: lightingRoot1_3
+    400080: lightingRoot1_4
+    400082: lightingRoot2_1
+    400084: lightingRoot2_2
+    400086: lightingRoot2_3
+    400088: lightingRoot2_4
+    400090: Locator
+    400092: Par_square
+    400094: prefab
+    400096: Scenery
+    400098: Sea
+    2100000: farm_base_tex3
+    2100002: stadium
+    2100004: Cyberspace_by_EliteSniper177
+    2300000: FarmColosseum_C
+    2300002: FarmColosseum_O 1
+    2300004: IlandColosseum 1
+    2300006: Island
+    2300008: Sea
+    3300000: FarmColosseum_C
+    3300002: FarmColosseum_O 1
+    3300004: IlandColosseum 1
+    3300006: Island
+    3300008: Sea
+    4300000: IlandColosseum
+    4300002: FarmColosseum_O
+    4300004: FarmColosseum_C
+    4300006: Island
+    4300008: Sea
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

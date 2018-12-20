@@ -36,6 +36,23 @@ public class NetworkHUD : NetworkManager
         }
     }
 
+    private void OnInternetServerMatchCreate(bool success, string extendedInfo, MatchInfo matchInfo)
+    {
+        if (success)
+        {
+            //Debug.Log("Create match succeeded");
+
+            MatchInfo hostInfo = matchInfo;
+            NetworkServer.Listen(hostInfo, 9000);
+
+            NetworkManager.singleton.StartServer(hostInfo);
+        }
+        else
+        {
+            Debug.LogError("Create match failed");
+        }
+    }
+
     //call this method to find a match through the matchmaker
     public void FindInternetMatch(string matchName)
     {
@@ -94,5 +111,10 @@ public class NetworkHUD : NetworkManager
     public void CreateInternetMatch()
     {
         NetworkManager.singleton.matchMaker.CreateMatch("Test", 4, true, "", "", "", 0, 0, OnInternetMatchCreate);
+    }
+
+    public void CreateServerMatch()
+    {
+        NetworkManager.singleton.matchMaker.CreateMatch("Test", 4, true, "", "", "", 0, 0, OnInternetServerMatchCreate);
     }
 }
