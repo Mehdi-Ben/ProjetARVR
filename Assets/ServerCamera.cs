@@ -10,9 +10,8 @@ public class ServerCamera : NetworkBehaviour {
 	// Update is called once per frame
 	void Update ()
     {
-        if (!isServer) Destroy(this);
-        transform.position = new Vector3(30 * Mathf.Cos(Time.time * speed), 60, 30 * Mathf.Sin(Time.time * speed));
-        print("Ok");
+        if (isClient) Destroy(this);
+        transform.position = new Vector3(55 * Mathf.Cos(Time.time * speed), 35, 55 * Mathf.Sin(Time.time * speed));
         transform.LookAt(Vector3.zero);
 	}
 }

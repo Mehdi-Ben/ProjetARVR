@@ -1,23 +1,30 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Networking;
 
-public class RankingScript : MonoBehaviour
+public class RankingScript : NetworkBehaviour
 {
     public PlayerRanking[] rankings;
+    public Camera cam;
 
 	// Use this for initialization
 	void Start () {
-		
+        
 	}
 	
 	// Update is called once per frame
 	void Update ()
     {
+        print("Client : " + isClient + " Server : " + isServer);
+        if (isClient) Destroy(gameObject);
         foreach (PlayerRanking pr in rankings)
         {
             pr.gameObject.SetActive(false);
         }
+        cam.transform.position = new Vector3(55 * Mathf.Cos(Time.time * 0.2f), 35, 55 * Mathf.Sin(Time.time * 0.2f));
+        cam.transform.LookAt(Vector3.zero);
+
         Tank[] players = FindObjectsOfType<Tank>();
         for (int i = 0; i < players.Length; i++)
         {

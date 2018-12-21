@@ -35,7 +35,7 @@ public class Tank : NetworkBehaviour
     public bool localPlayer;
 
     [Header("Camera")]
-    [SyncVar] public Vector3 targetTracker;
+    [SyncVar()] public Vector3 cameraTracker;
 
     [Header("Stats")]
     public float speed = 6.0f;
@@ -45,6 +45,7 @@ public class Tank : NetworkBehaviour
     [SyncVar] public float invisibility = 0f;
     [SyncVar] public float attackUp = 0f;
     [SyncVar] public float homingMissile = 0f;
+    [SyncVar] public float timeToRespawn = -0f;
     public TextMesh textMesh;
 
 
@@ -56,6 +57,7 @@ public class Tank : NetworkBehaviour
 
     [Header("HUD")]
     public GameObject arrowTracker;
+    public GameObject HUD;
     
 
 
@@ -93,7 +95,19 @@ public class Tank : NetworkBehaviour
 
     private void Update()
     {
-        CmdUpdateCamera();
+        
+        if (timeToRespawn > 0)
+        {
+            transform.position = new Vector3(200, 500, 200);
+            timeToRespawn -= Time.deltaTime;
+            if (timeToRespawn <= 0)
+            {
+                timeToRespawn = 0;
+                PV = 100;
+                RpcRespawn();
+            }
+        }
+
         if (!shadow)
         {
             shadow = Instantiate(shadowPrefab);
@@ -109,8 +123,10 @@ public class Tank : NetworkBehaviour
 
 
         if (invisibility > 0) Invisibility();
-        AttackUp();
-        HomingMissile();
+        else if (attackUp > 0) AttackUp();
+        else if (homingMissile > 0) HomingMissile();
+
+
 
 
 
@@ -126,15 +142,14 @@ public class Tank : NetworkBehaviour
 
         if (isLocalPlayer)
         {
-            
+            GameManager.instance.HUD.SetActive(true);
             if (buttonFire &&  t < 0)
             {
                 t = reloadTime;
-                print("A");
                 CmdFire();
                 buttonFire = false;
             }
-            targetTracker = Camera.main.transform.position;
+            cameraTracker = Camera.main.transform.position;
             Move();
         }
         
@@ -180,13 +195,12 @@ public class Tank : NetworkBehaviour
         PV -= damage;
         if (PV <= 0)
         {
-            PV = 100;
-            score = Mathf.Max(score - 1, 0);
+            
             if (player != -1)
             {
                 GameObject.FindGameObjectsWithTag("Player")[player-1].GetComponent<Tank>().score++;
             }
-            RpcRespawn();
+            timeToRespawn = 3f;
 
         }
     }
@@ -216,11 +230,7 @@ public class Tank : NetworkBehaviour
         NetworkServer.Spawn(bullet);
     }
 
-    [Command]
-    public void CmdUpdateCamera()
-    {
-       if (isLocalPlayer) targetTracker = Camera.main.transform.position;
-    }
+  
 
     public void FireButton()
     {
@@ -287,8 +297,9 @@ public class Tank : NetworkBehaviour
 
     private void OnDrawGizmos()
     {
+        if (ID < 1) return;
         Gizmos.color = colors[(ID - 1)];
-        Gizmos.DrawWireSphere(targetTracker, 1);
+        Gizmos.DrawSphere(cameraTracker, 2);
     }
 
     private void OnDestroy()

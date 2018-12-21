@@ -18,6 +18,7 @@ public class PlayerRanking : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
     {
+        if (!tank) return;
         text.text = "P" + tank.ID;
         score.text = tank.score.ToString("00");
         img1.color = Tank.colors[tank.ID - 1];

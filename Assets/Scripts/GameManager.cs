@@ -6,13 +6,17 @@ using UnityEngine.Networking;
 public class GameManager : NetworkBehaviour
 {
     public static GameManager instance;
-    [SyncVar] public int numberPlayer;
+    public GameObject HUD;
 
     public void Start()
     {
-        if (instance)
+        if (!instance)
         {
             instance = this;
+        }
+        else
+        {
+            Destroy(this);
         }
     }
 }
